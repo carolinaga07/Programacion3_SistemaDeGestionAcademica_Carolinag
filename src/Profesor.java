@@ -1,7 +1,5 @@
-public class Profesor {
+public class Profesor extends Persona {
     private int Codigo;
-    private String Nombre;
-    private int Apellido;
     private String Especialidad;
     
 }
