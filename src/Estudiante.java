@@ -1,10 +1,10 @@
 public class Estudiante extends Persona{
-    private int Matricula;
+    private String Matricula;
     private int Edad;
     private String Carrera;
     private String FechaDeInscripcion;
     
-    public Estudiante(String nombre, String apellido, int matricula, int edad, String carrera,
+    public Estudiante(String nombre, String apellido, String matricula, int edad, String carrera,
             String fechaDeInscripcion) {
         super(nombre, apellido);
         Matricula = matricula;
@@ -13,11 +13,11 @@ public class Estudiante extends Persona{
         FechaDeInscripcion = fechaDeInscripcion;
     }
 
-    public int getMatricula() {
+    public String getMatricula() {
         return Matricula;
     }
 
-    public void setMatricula(int matricula) {
+    public void setMatricula(String matricula) {
         Matricula = matricula;
     }
 

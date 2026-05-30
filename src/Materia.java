@@ -1,19 +1,19 @@
 public class Materia  {
-    private int Codigo;
+    private String Codigo;
     private String Nombre;
     private int cantidadCreditos;
     
-    public Materia(int codigo, String nombre, int cantidadCreditos) {
+    public Materia(String codigo, String nombre, int cantidadCreditos) {
         this.Codigo = codigo;
         this.Nombre = nombre;
         this.cantidadCreditos = cantidadCreditos;
     }
 
-    public int getCodigo() {
+    public String getCodigo() {
         return Codigo;
     }
 
-    public void setCodigo(int codigo) {
+    public void setCodigo(String codigo) {
         Codigo = codigo;
     }
 
